@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
+        <Nullable>disable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Authors>azrng</Authors>
+        <Company>azrng</Company>
+        <Copyright>版权归Azrng所有</Copyright>
+        <VersionPrefix>1.0.1</VersionPrefix>
+        <Description>该项目是测试使用的Nuget包</Description>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <ItemGroup Condition="'$(TargetFramework)'=='net6.0'">
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0"/>
+    </ItemGroup>
+
+    <ItemGroup Condition="'$(TargetFramework)'=='net8.0'">
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0"/>
+    </ItemGroup>
+
+</Project>

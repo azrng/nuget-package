@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{644121DD-4DD3-41E9-BAB5-998168B02ADB}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
+		.github\workflows\nuget-publish.yml = .github\workflows\nuget-publish.yml
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyUse", "src\StudyUse\StudyUse.csproj", "{E0D1D463-B844-46EC-8AB6-E90BAA77FCE1}"
